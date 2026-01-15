@@ -11,7 +11,7 @@ using namespace std::filesystem;
 class Reader
 {
     public:
-        explicit Reader(filesystem::path &fPath);
+        explicit Reader(const filesystem::path &fPath);
         ~Reader();
 
         char getChar() const;
